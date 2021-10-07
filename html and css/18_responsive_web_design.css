@@ -1,0 +1,20 @@
+.img{
+    height: 200px;
+    background-image: url(img/img.jpg);
+    background-size: 100%; /*try other optionsi.e 100%,cover,contain */
+    /* background-repeat: no-repeat; */
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.img2{
+    width:50%;
+    height: 200px;
+    background-image: url(img/img.jpg);
+    background-size:cover; /*try other optionsi.e 100%,cover,contain */
+    /* background-repeat: no-repeat; */
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
