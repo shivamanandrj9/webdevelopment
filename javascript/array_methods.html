@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let myArr = ["Fan", "Camera", 34, null, true];
+        // Array Methods
+        console.log(myArr);
+
+        console.log(myArr.length);  //prints the length of array
+        myArr.pop();   //pop out the last element of array
+
+        console.log(myArr);
+
+        myArr.push("harry")   //push harry into the end of the list
+
+        console.log(myArr);
+
+        myArr.shift()    //pop out first element of array
+        console.log(myArr);
+
+
+        const newLen = myArr.unshift("Harry")   //insert harry in the beginning of array
+        console.log(newLen);
+        console.log(myArr);
+    </script>
+</body>
+
+</html>
